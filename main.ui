@@ -27,17 +27,30 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="addButton">
     <property name="geometry">
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>93</width>
+      <width>271</width>
       <height>28</height>
      </rect>
     </property>
     <property name="text">
-     <string>Запуск</string>
+     <string>Добавить новую запись о кофе</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveButton">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>10</y>
+      <width>301</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сохранить изменения из таблицы в базу</string>
     </property>
    </widget>
   </widget>
